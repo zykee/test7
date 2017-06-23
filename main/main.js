@@ -12,7 +12,8 @@ module.exports = function main(email, suffixes) {
   {
   	if(e[i+1]!=s[j])
   		return false
+  	else
+  		return true
   }
-  else
-  	return true
+  
 };
