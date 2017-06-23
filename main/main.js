@@ -10,7 +10,7 @@ module.exports = function main(email, suffixes) {
   }
   for(var j=0;j<s.length;j++,i++)
   {
-  	if(e[i+1]！=s[j])
+  	if(e[i+1]!=s[j])
   		return false
   }
   else
