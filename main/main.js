@@ -5,7 +5,7 @@ module.exports = function main(email, suffixes) {
   var i
   for(i=0;i<e.length;i++)
   {
-  	if(e[i]='@')
+  	if(e[i]=='@')
   		break;
   }
   for(var j=0;j<s.length;j++,i++)
